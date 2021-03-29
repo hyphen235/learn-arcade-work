@@ -8,11 +8,14 @@ arcade.start_render()
 #arcade.draw_circle_filled(300,300,30,30,arcade.color.DARK_BROWN)
 
 arcade.draw_rectangle_filled(300,150,600,300, arcade.csscolor.GREEN)
-arcade.draw_rectangle_filled(100,300,20,60, arcade.csscolor.SIENNA)
-arcade.draw_circle_filled(100,350,30, arcade.csscolor.DARK_GREEN)
-arcade.draw_rectangle_filled(200, 320, 20, 60, arcade.csscolor.SIENNA)
-arcade.draw_ellipse_filled(200,370,60,80, arcade.csscolor.DARK_GREEN)
-
+arcade.draw_rectangle_filled(140,374,100,150, arcade.csscolor.SLATE_GRAY)
+arcade.draw_rectangle_filled(80, 339, 60, 80, arcade.csscolor.SLATE_GRAY)
+arcade.draw_polygon_filled(((280,300),
+                            (320, 300),
+                            (200, 0),
+                            (400, 0),
+                            ),
+                            arcade.csscolor.SLATE_GREY)
 
 
 
